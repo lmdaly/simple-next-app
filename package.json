@@ -6,7 +6,8 @@
     "dev": "next dev -p 8080",
     "build": "next build",
     "start": "next start -p 8080",
-    "wpe-build": "next build"
+    "wpe-build": "next build",
+    "stop": "next stop"
   },
   "dependencies": {
     "next": "^10.0.0",
