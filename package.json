@@ -1,4 +1,4 @@
-{
+
   "name": "learn-starter",
   "version": "0.1.0",
   "private": true,
@@ -6,7 +6,7 @@
     "dev": "next dev -p 8080",
     "build": "next build",
     "start": "next start -p 8080",
-    "wpe-build": "next-build",
+    "wpe-build": "next build",
     "stop": "next stop"
   },
   "dependencies": {
