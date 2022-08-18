@@ -1,4 +1,5 @@
 import Head from 'next/head'
+const os = require("os")
 
 export default function Home() {
   return (
@@ -207,3 +208,8 @@ export default function Home() {
     </div>
   )
 }
+
+const cpuData = os.cpus()
+const numOfCpus = os.cpus().length
+console.log(numOfCpus)
+console.log(cpuData)
